@@ -1,0 +1,16 @@
+.social__name{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0px 0px 15px 5px;
+}
+.social__text{
+    font-size: 14px;
+    margin: 10px;
+    color:  rgb(96, 96, 96);
+}
+@media (max-width: 550px){
+    .social{
+        margin-top: 10px;
+        text-align: center;
+    }
+}

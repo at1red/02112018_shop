@@ -1,0 +1,58 @@
+.content{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 30px; */
+}
+.preload{
+    position: relative;
+    width: 100px;
+    height: 20vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 12px;
+    overflow: hidden;
+}
+.preload::content{
+    position: absolute;
+    content: "Загрузка, ждите";
+}
+.preload::before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: gray;
+    animation-name: prol;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0, 0, 1, -0.04);
+    animation-delay: inherit; 
+}
+.preload:after{
+    position: absolute;
+    content: "Загрузка, ждите";
+    width: 100px;
+    height: 10px;
+    top: 7vh;
+}
+@keyframes prol {
+    0% {
+      left: -10px;
+    }
+    100% {
+      left: 100px;
+    }
+}
+
+@media (max-width: 780px){
+    .content{
+        justify-content: center;
+    }
+}

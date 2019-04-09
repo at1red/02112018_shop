@@ -1,0 +1,37 @@
+.menu-basket{
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border: 1px solid  rgb(96, 96, 96);
+    background-color: rgba(255, 255, 255, 0.753);
+    cursor: pointer;
+    margin: 5px 5px 5px 10px;
+    transition: 0.5s all;
+}
+.menu-basket:hover{
+    background-color: rgb(201, 201, 201)
+
+}
+.menu__basket-icon{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background: url(/images/icons/bascet.png) center center / contain no-repeat;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.menu__basket_active{
+    position: absolute;
+    background-color: white;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    font-size: 13px;
+    right: 4px;
+    top: 1px;
+    text-align: center;   
+    
+}

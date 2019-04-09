@@ -1,0 +1,77 @@
+.product{
+    width: 250px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 50px 10px;
+    text-decoration: none;
+    color: black;
+}
+.product__img{
+    width: 220px;
+    height: 260px;
+    background:  center center / contain no-repeat;
+    border: 1px solid rgb(96, 96, 96);
+    margin: auto;
+}
+.img1{
+    background-image: url(/images/catalog/1.jpg);
+}
+.img2{
+    background-image: url(/images/catalog/2.jpg);
+}
+.img3{
+    background-image: url(/images/catalog/3.png);
+}
+.img4{
+    background-image: url(/images/catalog/4.jpg);
+}
+.img5{
+    background-image: url(/images/catalog/5.jpg);
+}
+.img6{
+    background-image: url(/images/catalog/6.jpg);
+}
+.img7{
+    background-image: url(/images/catalog/7.jpg);
+}
+.img8{
+    background-image: url(/images/catalog/8.jpg);
+}
+.img9{
+    background-image: url(/images/catalog/9.jpg);
+}
+.img10{
+    background-image: url(/images/catalog/10.jpg);
+}
+.img11{
+    background-image: url(/images/catalog/11.jpg);
+}
+.img12{
+    background-image: url(/images/catalog/12.jpg);
+}
+.product__name{
+    font-weight: 600;
+    padding: 10px;
+    margin-top: 20px;
+}
+.product__price{
+    font-size: 14px;
+}
+.sale{
+    position: relative;
+    color: rgb(167, 0, 0);
+    text-decoration: none;
+    overflow: hidden;
+}
+.sale:before{
+    position: absolute;
+    content: "Sale";
+    background-color: rgba(221, 49, 58, 0.596);
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 22px;
+    top: 54px;
+    right: 18px;
+    padding: 0px 5px 0px 5px; 
+}

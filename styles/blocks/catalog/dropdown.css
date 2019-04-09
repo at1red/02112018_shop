@@ -1,0 +1,36 @@
+.features__dropdawn{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.925);
+    padding: 5px 0px 5px 0px;
+    box-sizing: border-box;
+    z-index: 5;
+}
+.features__link{
+    display: block;
+    width: 100%; 
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 5px 0px 5px 0px;
+    padding: 5px 5px 5px 10px;
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    transition: 0.3s all;
+    cursor: pointer; 
+}
+.features__link:hover{
+    width: 140px;
+    background-color: rgb(124, 124, 124);
+    color: white;
+}
+.active + .features__dropdawn{
+    display: block;
+}
+@media (max-width: 700px){
+    .features{
+        flex-wrap: wrap;
+    }
+}

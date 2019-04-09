@@ -1,0 +1,21 @@
+.breadcrumbs{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.breadcrumbs__link{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.breadcrumbs__stick{
+    margin: 0px 10px;
+}
+@media (max-width: 970px){
+    .breadcrumbs{
+        padding-top: 30px;
+    }
+}

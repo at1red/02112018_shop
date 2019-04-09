@@ -1,0 +1,40 @@
+@import 'blocks/common/all-class.css';
+@import 'blocks/common/wrapper.css';
+@import 'blocks/common/inside-text.css';
+@import 'blocks/common/content.css';
+@import 'blocks/common/breadcrumbs.css';
+@import 'blocks/common/main.css';
+
+@import 'blocks/mobile_menu/mobile-menu.css';
+@import 'blocks/mobile_menu/menu-basket.css';
+@import 'blocks/mobile_menu/menu-login.css';
+@import 'blocks/mobile_menu/menu-item.css';
+@import 'blocks/mobile_menu/menu-navigation.css';
+@import 'blocks/mobile_menu/menu-button.css';
+
+@import 'blocks/header/basket.css';
+@import 'blocks/header/header.css';
+@import 'blocks/header/login.css';
+@import 'blocks/header/logo.css';
+@import 'blocks/header/navigation.css';
+
+@import 'blocks/details/details.css';
+@import 'blocks/details/details-img.css';
+@import 'blocks/details/details-title.css';
+@import 'blocks/details/details-articule.css';
+@import 'blocks/details/details-price.css';
+@import 'blocks/details/details-text.css';
+@import 'blocks/details/details-size.css';
+@import 'blocks/details/details-button.css';
+@import 'blocks/details/details-main.css';
+
+
+
+
+
+
+
+@import 'blocks/footer/footer.css';
+@import 'blocks/footer/footer-navigation.css';
+@import 'blocks/footer/social-item.css';
+@import 'blocks/footer/social.css';

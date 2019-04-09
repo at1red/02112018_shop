@@ -1,0 +1,25 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.pagination__num{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin: 3px;
+    font-size: 12px;
+    background-color: black;
+    color:  white;    
+    border: 1px solid black;
+    text-decoration: none;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+.pagination__num:hover{
+    background-color: rgb(126, 126, 126);
+}
+.pagination__num_active{
+    background-color: white;
+    color: black;
+}

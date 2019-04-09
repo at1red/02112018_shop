@@ -1,0 +1,21 @@
+.menu-navigation{
+    position: fixed;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.973);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: -255px;
+    top: 0px;
+    padding: 20px 0px 20px 0px;
+    z-index: 9;
+    border-left: 1px solid gray;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.158), 0 5px 5px rgba(0, 0, 0, 0.137);
+    transition: 0.5s ease all;
+}
+.menu__logo{
+    width: 40px;
+    height: 40px;
+    background: url(/images/icons/logo.jpg) center center / contain no-repeat;
+    padding-bottom: 20px;
+}

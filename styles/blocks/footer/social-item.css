@@ -1,0 +1,32 @@
+.social-item{
+    background-color: white;
+    display: flex;
+    width: 200px;
+}
+.social-item__link{
+    width: 30px;
+    height: 30px;
+    background: center center / contain no-repeat;
+    margin: 10px;
+    transition: 0.3s all;
+}
+.social-item__link:hover{
+    background-color: rgb(230, 230, 230);
+    transform: scale(0.96);
+}
+.twitter{
+    background-image: url(/images/social/tw.png);
+}
+.facebook{
+    background-image: url(/images/social/fb.png);
+}
+.instagram{
+    background-image: url(/images/social/inst.png);
+}
+@media (max-width: 550px){
+    .social-item{
+        width: 100%;
+        justify-content: center;
+        
+    }
+}
